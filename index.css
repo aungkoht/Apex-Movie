@@ -1,0 +1,304 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Itim&family=Russo+One&display=swap');
+  *{
+   font-family: 'Itim', cursive;
+   box-sizing: border-box;
+   margin:0;
+   padding:0;
+   
+  }
+  nav{
+     /* background: linear-gradient(171deg, rgba(182, 17, 107, 0.97) 0%, rgba(59, 21, 120, 0.00) 100%); */
+     background: linear-gradient(135deg, #2E1371 0%, #130B2B 100%);
+    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+ 
+  .navbar-nav{
+    color:#3f066b
+  }
+
+ 
+  .carouselAndPlans{
+    background: linear-gradient(136deg, #2E1371 0%, #130B2C 99.99%, #130B2B 100%);
+
+
+  }
+  .heroSection{
+    width:100%
+  }
+ 
+  .navlogo{
+    height:40px;
+    padding:5px;
+  }
+  
+  /* .container{
+    margin-top:60px
+  } */
+  .mainSection{
+    margin:0 auto;
+    margin-top:100px;
+    
+  }
+  
+  .heroImg{
+    width:200px;
+    border-radius:10px;
+    margin-left:10px;
+    margin-top:10px
+  }
+
+  /* .logoContainer{
+    margin-top:30px;
+  } */
+  .logo{
+    width:80px;
+    text-align:center;
+    
+  }
+
+  .planSection{
+    margin-top:60px
+  }
+
+  .cardContainer{
+    margin-left:20px
+  }
+ 
+  ul li {
+    list-style: none;
+  }
+  .card{
+    box-shadow: 0.3px 0.3px 1px #aaa;
+    transition:.5s all;
+    cursor:pointer;
+  }
+  
+  .card:hover{
+    transform: scale(1.1);
+  }
+  .card h2{
+    color:#1D1634
+  }
+
+  .movieSection{
+    background-color:#491a6e ;
+  }
+  .ongoingContainer{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap
+  }
+  .ongoingContainer img{
+    width:150px;
+    height:100px;
+    border-radius:5px;
+    margin:3px;
+    cursor:pointer;
+    transition: .5s all
+  }
+  .ongoingContainer img:hover{
+    transform:scale(1.1);
+  }
+ 
+  .popularContainer{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+
+  }
+  .popularContainer img{
+    height:100px;
+    width:150px;
+    border-radius:5px;
+    margin:3px;
+    cursor:pointer;
+    transition: .5s all;
+
+  }
+  .popularContainer img:hover{
+    transform:scale(1.1);
+    box-shadow:#130B2B;
+  }
+
+  .searchContainer{
+    
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    
+  }
+  .search{
+    width:400px;
+    /* outline:none; */
+    outline-color: red;
+    column-rule-style: outset;
+    margin-right:5px;
+    caret-color:red;
+    
+  }
+
+  .categoriesContainer{
+    text-align:center;
+  }
+
+  .carouselContainer{
+    /* margin:30px auto; */
+    text-align:center;
+    margin-top:100px;
+    position:relative;
+  }
+  .carouselContainer img{
+    width:700px;
+    height:400px;
+    overflow:hidden;
+    transition:all .5s
+  }
+
+  .carouselContainer #img2{
+    display:none;
+  }
+  .carouselContainer #img3{
+    display:none;
+    
+  }
+  .prevBtn{
+    position:absolute;
+    left:10px;
+    bottom:50%;
+  }
+  .nextBtn{
+    position:absolute;
+    right:10px;
+    bottom:50%
+  }
+  .form{
+    background-color:#1D1634;
+    color:#fff;
+  }
+
+  .accnoti{
+    width:100%;
+  }
+
+  .form .inputContainer{
+    max-width:600px;
+    /* text-align:center; */
+    margin:0 auto;
+  }
+  .form .inputs input{
+    width:100%;
+    padding:5px 10px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    caret-color:#491a6e
+  }
+
+  .brandiconsContainer{
+    text-align:center;
+    justify-content:center;
+  }
+  .iconContainer{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:1px solid #fff;
+    position:relative;
+    transition:.5s all;
+  }
+  .fa-google{
+    /* color:#8309e1; */
+    color:#fff;
+    font-size:1.2em;
+    position:absolute;
+    left:10px;
+    top:10px
+
+  }
+ 
+  .fa-facebook{
+    /* color:#8309e1; */
+    color:#fff;
+    font-size:1.2em;
+    position:absolute;
+    left:10px;
+    top:10px
+
+  }
+  .fa-instagram{
+     color:#fff;
+    font-size:1.3em;
+    position:absolute;
+    left:11px;
+    top:9px
+  }
+  .iconContainer:hover{
+      transform: scale(1.2);
+  }
+
+  .appstore{
+    width:150px;
+    height:50px;
+  }
+  .footer{
+    background:#491a6e;
+    color:#fff;
+  }
+  .copyright{
+    color:#130B2B
+  }
+
+  @media (max-width:600px){
+    
+    .carouselContainer img{
+      width:300px;
+      height:200px;
+    }
+    .search{
+      width:200px
+    }
+    .heroImg{
+      width:150px;
+    }
+    
+  .mainSection{
+    margin-bottom:30px
+  }
+  .logoContainer{
+    margin-top:10px;
+  }
+  .logo{
+    width:35px;
+    text-align:center;
+    
+  }
+  .apex{
+    display:none;
+  }
+  .header{
+    font-size:large
+  }
+  .intropara{
+    line-height:1.1em
+  }
+   .prevBtn{
+   opacity:0;
+  }
+  .nextBtn{
+    opacity:0
+  }
+  .carouselContainer img{
+    transform:scale(1);
+    border-radius:10px;
+  }
+  .ongoingContainer{
+    margin-left:15px;
+  }
+  .popularContainer{
+    margin-left:15px;
+  }
+}
