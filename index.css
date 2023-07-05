@@ -98,6 +98,14 @@
     cursor:pointer;
     transition: .5s all
   }
+  .watch{
+    border-radius:5px;
+    cursor:pointer;
+    transition: .5s all;
+  }
+  .watch:hover{
+    transform:scale(.98)
+  }
   .ongoingContainer img:hover{
     transform:scale(1.1);
   }

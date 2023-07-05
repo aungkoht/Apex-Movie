@@ -12,7 +12,7 @@
 </head>
 <body>
    <!-- Navbar Section -->
-   <nav class="navbar navbar-dark">
+   <nav class="navbar navbar-dark d-flex flex-between">
       <div>
          <img src="./png/logo.png" class="navlogo" alt=""> <span style="font-weight:bold; font-size:20px; color:rgb(214, 12, 29)" class="apex">APEX</span>
       </div>
@@ -43,7 +43,7 @@
 
             <div class="col-6 col-lg-8">
               <div class="logoContainer">
-                  <img src="./png/logo.png" alt="" class="logo"> <span class="ms-2 text-danger">Free and Premium</span>
+                  <img src="./png/logo.png" alt="" class="logo"> <span class=" text-danger" style="font-weight: bold;">Apex Movies </span>
                </div> <br>
                <h2 class="header">Watch Tv Shows & Movies Any Time</h2>
                <p style="opacity:0.7" class="intropara">
@@ -73,9 +73,9 @@
    </div>
 
    <!-- Plans Section -->
-   <div class="planSection mt-5">
-      <h2 class="text-center text-danger ">Plans</h2>
-      <div class="container d-flex flex-evenly row  mt-4 ms-2 cardContainer">
+   <div class="planSection p-5"  >
+      <h2 class="text-center text-danger fs-1 ">Plans</h2>
+      <div class="container-fluid d-flex row  mt-4  cardContainer" >
          <div class="col-12 col-md-6 col-lg-4 mt-4">
             <div class="card  shadow">
                <div class="card-header"><h2 class="text-center ">Normal Plan</h2></div>
@@ -173,8 +173,28 @@
    <!-- Movies  -->
    <div class="py-3 movieSection">
       <div>
-         <h4 class="text-center text-light">Movies</h4>
+         <h4 class="text-center text-danger p-4 fs-1">Movies</h4>
       </div>
+        <!-- Groups -->
+   <div class="container mt-3">
+      <div class="col-12 mt-3">
+         <div class="row" style="margin:0 auto">
+            <h5 class="text-light">Explore more videos to watch</h5>
+            <div class="col-11 col-md-6 col-lg-3 bg-primary p-1 ms-2 my-1  film watch">
+               <div><i class="fa-solid fa-film text-light p-3 fs-3"></i></div>
+               <div class="text-light p-4 fs-3">Home</div>
+            </div>
+            <div class="col-11 col-md-6 col-lg-3 bg-danger p-1 ms-2 my-1 live watch">
+               <div><i class="fa-solid fa-video text-live text-light p-3 fs-3"></i></div>
+               <div class="text-light p-4 fs-3">Live</div>
+            </div>
+            <div class="col-11 col-md-6 col-lg-3 bg-success p-1 ms-2 my-1 tv  watch">
+               <div><i class="fa-solid fa-tv text-light fs-3 p-3"></i></div>
+               <div class="text-light p-4 fs-3">Shows</div>
+            </div>
+         </div>
+      </div>
+   </div>
       <div class="categoriesContainer">
          <div class="searchContainer mt-4">
            <div> <input type="text" class="search p-1" placeholder="Movies and Tv shows Name"></div>
@@ -218,9 +238,11 @@
          </div>
       </div>
    </div>
+      
+ 
 
    <!-- CONTACT -->
-   <div class="form">
+   <div class="form p-3">
       <h3 class="text-center p-3">Register your account to get new Features and updates.</h3>
       <div class="inputContainer p-3">
          <div class="inputs">
@@ -244,7 +266,7 @@
             <button class="btn btn-outline-light rounded-pill  me-2 mx-1 ">Cancel</button>
             <button class="btn btn-outline-primary rounded-pill  me-4 f mx-2">Create</button>
        </div> <br>
-       <div class="mt-5 accnoti text-center">
+       <div class="mt-5 accnoti text-center p-4">
          <p>Already have you an account? <a href="">Sign Up </a></p>
        </div>
 
@@ -319,7 +341,7 @@
       </div>
    </div>
    <div class="text-light text-center ">
-      <i class="fa-regular fa-copyright copyright"></i> <span class="copyright">Apex Entertainment App Inc 2023. All reserved <a href="">More</a></span>
+      <i class="fa-regular fa-copyright copyright"></i> <span class="copyright">Apex Entertainment App Inc 2023. All reserved <a href="">See More</a></span>
    </div>
   
    <script src="./carosel.js"></script>
